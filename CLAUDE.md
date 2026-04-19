@@ -17,7 +17,7 @@ No linting is configured.
 
 This is a lightweight HTTP sidecar server that captures Android `adb logcat` output and exposes REST endpoints so Maestro test flows can assert on application logs.
 
-**Main components** (all in `src/main/java/org/igniterealtime/logcat/`):
+**Main components** (all in `src/main/java/net/fishbowler/logcat/`):
 
 - **`LogcatBuffer`** — Thread-safe circular buffer (10,000 lines, `ReentrantLock`). Spawns an `adb logcat` subprocess and reads its stdout into the queue. Provides `findMatchingLines(String regex)` using `Pattern.find()` (substring match, not full-line). Tag filter is configurable via the `LOGCAT_TAGS` env var.
 

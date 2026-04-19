@@ -1,4 +1,4 @@
-package org.igniterealtime.logcat;
+package net.fishbowler.logcat;
 
 import io.javalin.Javalin;
 import io.javalin.http.Context;

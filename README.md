@@ -94,7 +94,7 @@ Liveness probe. Always returns `200 { "status": "ok" }`. Used by `start.sh` to p
 
 ## Maestro integration
 
-Copy the scripts from `flows/scripts/` into your test project alongside your flow files. Call them in this order:
+Copy the scripts from `maestro-scripts/` into your test project alongside your flow files. Call them in this order:
 
 ```yaml
 appId: com.example.myapp

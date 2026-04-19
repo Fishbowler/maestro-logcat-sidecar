@@ -30,7 +30,7 @@ This is a lightweight HTTP sidecar server that captures Android `adb logcat` out
 
 **Data flow:** `adb logcat` process → `LogcatBuffer` → Javalin endpoints → HTTP clients (Maestro flows)
 
-**Maestro integration scripts** live in `flows/scripts/` (JS): `startSession.js`, `checkForLogs.js`, `checkHealth.js`. See `flows/README.md` for usage.
+**Maestro integration scripts** live in `maestro-scripts/` (JS): `startSession.js`, `checkForLogs.js`, `checkHealth.js`. See `README.md` for usage.
 
 ## Key details
 
